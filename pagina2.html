@@ -1,0 +1,89 @@
+<html>
+    <head>
+
+</head>
+    <body>
+        <h1>Formulário de Contato</h1>
+        <fieldset>
+            <legend>Dados básicos</legend>
+            <label>Nome</label>
+            <input type="text">
+            <br>
+            <label>E-mail</label>
+            <input placeholder="fulano@email.com" type="email">
+            <br>
+            <label>Website</label>
+            <input value="http://" type="url">
+            
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Seu curso no Instituto de Computação</legend>
+            <input type="radio" id="html" name="fav_language" value="Ciência da Computação">
+            <label for="html">Ciência da Computação</label><br>
+            <input type="radio" id="css" name="fav_language" value="Sistemas de Informação">
+            <label for="css">Sistemas de Informação</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="Engenharia da Computação">
+            <label for="javascript">Engenharia da Computação</label>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Assinale as linguagens já usadas por você</legend>
+            <label for="vehicle3"> Java</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> C</label> 
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> C++</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Pearl</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Python</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> javascript</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Dados complementares</legend>
+            <label>E-mail</label>
+            <input type="color" id="body" name="body"
+            value="#000000">
+            <br>
+            <label>Data de nascimento</label>
+            <input type="date" id="body" name="body">
+            <br>
+            <label>Ano de entrada em seu curso do Icomp</label>
+            <input value="2020" type="text">
+            <br>
+            <label>Nota para este site</label>
+            <input type="range">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Área de atuação</legend>
+            <select name="select">
+                <option value="valor1">Lacre</option>
+                <option value="valor2" selected>Banco de dados</option>
+                <option value="valor3">Otimização</option>
+              </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Submeta seu curriculo vitae</legend>
+            <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Escreva sua mensagem</legend>
+            <textarea rows="4" cols="56" value="Este é o valor padrão">
+                Este é o valor padrão
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="button" value="Resetar dados">
+        <input type="button" value="Enviar mensagem">
+
+    </body>
+</html>
