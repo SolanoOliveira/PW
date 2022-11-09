@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+    </head>
+
+    <style>
+
+        .container{
+            background-color: silver;
+            width: 25%;
+            border: 10px solid;
+            padding-top: 20px;
+            padding-left: 35px;
+            padding-bottom: 20px;
+            border-top-right-radius: 70px;
+            border-bottom-left-radius: 70px;
+            border-top-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            font-family: sans-serif;
+
+        }
+      
+    </style>
+    <body>
+
+      <div class="container">
+            O instituto de computação é o mais novo<br> 
+            instituto da UFAM, tendo sido formado a <br>
+            partir do antigo departamento de Ciência da Computação (DCC) <br>
+      </div>
+    </body>
+</html>
